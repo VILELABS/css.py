@@ -11,6 +11,7 @@ def CSS(dictionary): # CSS
         css += '\n'
     with open(filename, 'w') as f:
         f.write(css)
+    return css
 
 def Hex(color): # HEX color
     return '#' + color
